@@ -65,6 +65,8 @@ docker run -d -p 3000:3000 --name meu-container minha-imagem:1.0
 
 ### 🌐 4. Pod Networking
 
+### 📈 5. Scaling
+
 
 ## Estágios no OCI DevOps
 
