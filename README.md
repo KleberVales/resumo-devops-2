@@ -96,4 +96,11 @@ Redirecionamento de 100% do tráfego para o ambiente standby validado
 
 ## Resource Manager Introduction and concepts
 
+- Configuration Source Provider
+- Configuration
+- Stacks
+- Actions
+- Jobs
+- Templates
+
 
