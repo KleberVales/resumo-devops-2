@@ -7,6 +7,27 @@
 - 📄 Passo 1: Crie um arquivo Dockerfile
 
 Exemplo básico para uma aplicação Node.js:
+```Dockerfile
+
+# Usa uma imagem base oficial
+FROM node:18
+
+# Cria diretório de trabalho
+WORKDIR /app
+
+# Copia os arquivos do projeto
+COPY package*.json ./
+RUN npm install
+COPY . .
+
+# Expõe a porta
+EXPOSE 3000
+
+# Comando para iniciar a aplicação
+CMD ["node", "index.js"]
+
+
+```
 
 ## Comparando Nós Virtuais com Nós Gerenciados
 
