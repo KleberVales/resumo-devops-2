@@ -72,6 +72,10 @@ docker run -d -p 3000:3000 --name meu-container minha-imagem:1.0
 
 ## Estágios no OCI DevOps
 
+A estratégia blue-green no OCI DevOps é composta por até quatro estágios, sendo dois opcionais:
+
+
+
 ## Resource Manager Introduction and concepts
 
 
