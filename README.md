@@ -39,6 +39,9 @@ docker build -t minha-imagem:1.0 .
 
 ```
 
+- -t minha-imagem:1.0: nome e tag da imagem
+- .: indica que o Dockerfile está no diretório atual
+
 
 
 
