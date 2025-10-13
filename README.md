@@ -29,6 +29,8 @@ CMD ["node", "index.js"]
 
 ```
 
+### 🧱 Passo 2: Construir a imagem
+
 ## Comparando Nós Virtuais com Nós Gerenciados
 
 ## Estágios no OCI DevOps
