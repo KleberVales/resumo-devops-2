@@ -31,6 +31,17 @@ CMD ["node", "index.js"]
 
 ### 🧱 Passo 2: Construir a imagem
 
+No terminal, execute:
+
+```bash
+
+docker build -t minha-imagem:1.0 .
+
+```
+
+
+
+
 ## Comparando Nós Virtuais com Nós Gerenciados
 
 ## Estágios no OCI DevOps
