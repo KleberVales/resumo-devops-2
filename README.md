@@ -4,3 +4,6 @@
 
 ## Comparando Nós Virtuais com Nós Gerenciados
 
+## Estágios no OCI DevOps
+
+
