@@ -44,6 +44,8 @@ docker build -t minha-imagem:1.0 .
 
 ### 🚀 2. Executar o container
 
+- ▶️ Passo 3: Rodar a imagem como container
+
 
 
 
