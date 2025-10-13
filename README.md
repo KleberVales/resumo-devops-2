@@ -6,6 +6,8 @@
 
 - 📄 Passo 1: Crie um arquivo Dockerfile
 
+Exemplo básico para uma aplicação Node.js:
+
 ## Comparando Nós Virtuais com Nós Gerenciados
 
 ## Estágios no OCI DevOps
