@@ -46,6 +46,15 @@ docker build -t minha-imagem:1.0 .
 
 - ▶️ Passo 3: Rodar a imagem como container
 
+```bash
+docker run -d -p 3000:3000 --name meu-container minha-imagem:1.0
+```
+
+* -d: modo destacado (em background)
+* -p 3000:3000: mapeia a porta do host para o container
+* --name: dá um nome ao container
+* minha-imagem:1.0: imagem que será usada
+
 
 
 
