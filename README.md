@@ -6,4 +6,6 @@
 
 ## Estágios no OCI DevOps
 
+## Resource Manager Introduction and concepts
+
 
