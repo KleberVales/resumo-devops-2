@@ -74,6 +74,24 @@ docker run -d -p 3000:3000 --name meu-container minha-imagem:1.0
 
 A estratégia blue-green no OCI DevOps é composta por até quatro estágios, sendo dois opcionais:
 
+1. Deployment Stage
+
+Seleção dos dois ambientes (OKE ou Instance Group)
+Escolha dos artifacts a serem implantados
+Load balancer para Instance Group ou NGINX ingress controller para OKE
+
+2. Invoke Function Stage (opcional)
+
+Função personalizada para validar a aplicação no ambiente standby
+
+3. Manual Approval Stage (opcional)
+
+Etapa de aprovação manual antes da mudança de tráfego
+
+4. Blue-Green Traffic Shift Stage
+
+Redirecionamento de 100% do tráfego para o ambiente standby validado
+
 
 
 ## Resource Manager Introduction and concepts
