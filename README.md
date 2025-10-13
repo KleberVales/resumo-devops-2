@@ -55,10 +55,9 @@ docker run -d -p 3000:3000 --name meu-container minha-imagem:1.0
 * --name: dá um nome ao container
 * minha-imagem:1.0: imagem que será usada
 
-
-
-
 ## Comparando Nós Virtuais com Nós Gerenciados
+
+### Resource Allocation
 
 ## Estágios no OCI DevOps
 
